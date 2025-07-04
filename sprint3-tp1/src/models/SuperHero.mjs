@@ -1,11 +1,10 @@
 // src/models/SuperHero.mjs
 import mongoose from "mongoose";
 const superheroSchema = new mongoose.Schema({
-  nombreSuperheroe: { type: String, required: true },
+  nombreSuperheroe: { type: String, required: true ,unique:true},
   nombreReal: { type: String, required: true },
   edad: { type: Number, min: 0 },
-  planetaOrigen: {
-    
+  planetaOrigen: {    
     type: String,
     default: "Desconocido",
   },

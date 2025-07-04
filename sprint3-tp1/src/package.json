@@ -4,10 +4,10 @@
   "name": "sprint.tp3", 
   "version": "1.0.0",
   "description": "Sprint 2- trabajo practico n3",
-  "main": "server.mjs", 
+  "main": "app.mjs", 
   "type": "module",
    "scripts": {
-    "start": "node server.mjs"   },
+    "start": "node app.mjs"   },
   
   "author": "Lorena Collante",
   "license": "ISC",
